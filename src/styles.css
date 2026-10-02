@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    @apply bg-white text-slate-800 antialiased;
+  }
+}
+@layer components {
+  .eyebrow {
+    @apply text-xs font-bold tracking-[.2em] uppercase text-wheat;
+  }
+  .button {
+    @apply inline-flex items-center gap-2 bg-wheat px-5 py-3 text-sm font-bold text-forest transition hover:bg-yellow-300;
+  }
+  .section {
+    @apply mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28;
+  }
+}
